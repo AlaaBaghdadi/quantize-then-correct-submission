@@ -1,0 +1,14 @@
+{
+ "uid": "vidit-full-loso-human2_motion2-s42-t25-r0",
+ "post": "kapt_smoothnet",
+ "skeleton": "/workspace/runs/qtc/post/a9c2a3872968423fe67e57cba686fad52edd8501dae4d795f0560f999304e92d__kapt_smoothnet.json",
+ "num_frames": 37.0,
+ "acceleration_variance": 4.988938513953363,
+ "mean_acceleration": 0.16812066600114478,
+ "mean_limb_length_std": 9.443470418160281,
+ "total_violations": 6.0,
+ "violation_fraction": 0.16216216216216217,
+ "frames_evaluated": 37.0,
+ "var_accel_norm": 3.8353518155136546,
+ "mean_accel_norm": 2.350834481222318
+}

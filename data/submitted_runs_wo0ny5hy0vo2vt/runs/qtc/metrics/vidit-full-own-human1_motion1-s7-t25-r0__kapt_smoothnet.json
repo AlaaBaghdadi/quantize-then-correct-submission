@@ -1,0 +1,14 @@
+{
+ "uid": "vidit-full-own-human1_motion1-s7-t25-r0",
+ "post": "kapt_smoothnet",
+ "skeleton": "/workspace/runs/qtc/post/cf8b3d56ff82844944aad5f79e4ff74726c6d8df245391da662bbe9ee67a61fc__kapt_smoothnet.json",
+ "num_frames": 37.0,
+ "acceleration_variance": 5.825196822980784,
+ "mean_acceleration": 0.015687212090070752,
+ "mean_limb_length_std": 23.63196366238229,
+ "total_violations": 45.0,
+ "violation_fraction": 0.7567567567567568,
+ "frames_evaluated": 37.0,
+ "var_accel_norm": 5.736725362718996,
+ "mean_accel_norm": 1.8264233701275459
+}

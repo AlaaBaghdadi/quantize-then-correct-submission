@@ -1,0 +1,14 @@
+{
+ "uid": "vidit-full-own-human1_motion1-s42-t25-r0-dpre3",
+ "post": "none",
+ "skeleton": "/workspace/runs/keypoints/158ff1c1b77eb687e4572485f0c22e5e67c7f93e61b78bc81e81b9230015d5e7.json",
+ "num_frames": 37.0,
+ "acceleration_variance": 8080.39552609764,
+ "mean_acceleration": 3.326968296698669,
+ "mean_limb_length_std": 142.3298588906303,
+ "total_violations": 27.0,
+ "violation_fraction": 0.5675675675675675,
+ "frames_evaluated": 37.0,
+ "var_accel_norm": 8648.861326465461,
+ "mean_accel_norm": 22.06705859982463
+}

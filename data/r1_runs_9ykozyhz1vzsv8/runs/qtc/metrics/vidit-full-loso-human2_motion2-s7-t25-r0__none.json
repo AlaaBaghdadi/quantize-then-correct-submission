@@ -1,0 +1,14 @@
+{
+ "uid": "vidit-full-loso-human2_motion2-s7-t25-r0",
+ "post": "none",
+ "skeleton": "/workspace/runs/keypoints/bd16e666630c4ef17fb33f99733949364787a72c07da860042e931a039d156c5.json",
+ "num_frames": 37.0,
+ "acceleration_variance": 54.583578486207934,
+ "mean_acceleration": 0.3307646460845732,
+ "mean_limb_length_std": 11.234703923335438,
+ "total_violations": 0.0,
+ "violation_fraction": 0.0,
+ "frames_evaluated": 37.0,
+ "var_accel_norm": 33.40700437520196,
+ "mean_accel_norm": 5.661556868981355
+}

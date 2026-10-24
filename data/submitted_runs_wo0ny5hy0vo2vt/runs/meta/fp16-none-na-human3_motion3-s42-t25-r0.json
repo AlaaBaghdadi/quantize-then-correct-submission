@@ -1,0 +1,25 @@
+{
+ "variant": "fp16",
+ "clip": "human3_motion3",
+ "seed": 42,
+ "drive": "raw",
+ "map": "full",
+ "steps": 25,
+ "rep": 0,
+ "group": "core",
+ "uid": "fp16-none-na-human3_motion3-s42-t25-r0",
+ "calib": "na",
+ "gen_seconds": 176.79907369613647,
+ "quantize_seconds": 4.0531158447265625e-06,
+ "peak_vram_gb": 28.989518336,
+ "n_frames": 40,
+ "env": {
+  "torch": "2.6.0+cu124",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "host": "32487cbafb5f",
+  "pod": "wo0ny5hy0vo2vt",
+  "study": "qtc"
+ },
+ "finished_utc": "2026-09-22T05:39:02Z",
+ "calib_source": "recorded in this run"
+}

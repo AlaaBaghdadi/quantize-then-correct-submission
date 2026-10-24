@@ -1,0 +1,14 @@
+{
+ "uid": "vidit-full-loso-human3_motion3-s7-t25-r0-dpre3",
+ "post": "kapt_smoothnet",
+ "skeleton": "/workspace/runs/qtc/post/4ba9935ab1298fd052d8f3d4046c3355fa383c7bb2132a9714e50277a981d478__kapt_smoothnet.json",
+ "num_frames": 37.0,
+ "acceleration_variance": 4.076324813112998,
+ "mean_acceleration": 0.026325942259266506,
+ "mean_limb_length_std": 13.627631545239273,
+ "total_violations": 16.0,
+ "violation_fraction": 0.43243243243243246,
+ "frames_evaluated": 37.0,
+ "var_accel_norm": 2.6511879806548575,
+ "mean_accel_norm": 2.015996331638552
+}

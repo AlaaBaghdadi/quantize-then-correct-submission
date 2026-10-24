@@ -1,0 +1,14 @@
+{
+ "uid": "w4a8-full-loso-human3_motion1-s7-t25-r0",
+ "post": "kapt_smoothnet",
+ "skeleton": "/workspace/runs/qtc/post/bf9252bbe886dce50ffce5daf591cbccfef1af4a43722ddce4f3614de7044936__kapt_smoothnet.json",
+ "num_frames": 37.0,
+ "acceleration_variance": 1.1597922815663384,
+ "mean_acceleration": 0.05876741279755548,
+ "mean_limb_length_std": 11.89247964058197,
+ "total_violations": 18.0,
+ "violation_fraction": 0.4864864864864865,
+ "frames_evaluated": 37.0,
+ "var_accel_norm": 1.0680959380876427,
+ "mean_accel_norm": 0.9359242366630537
+}

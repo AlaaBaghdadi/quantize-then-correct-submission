@@ -1,0 +1,14 @@
+{
+ "uid": "fp16-none-na-human1_motion2-s2-t25-r0",
+ "post": "none",
+ "skeleton": "/workspace/runs/keypoints/5f27188fe907d81d25247cf2daf4b6911ee394bdcfe3e85a640fd3d5e7ded70e.json",
+ "num_frames": 37.0,
+ "acceleration_variance": 412.4619058895997,
+ "mean_acceleration": 0.4499086643130302,
+ "mean_limb_length_std": 118.43291129530282,
+ "total_violations": 3.0,
+ "violation_fraction": 0.08108108108108109,
+ "frames_evaluated": 37.0,
+ "var_accel_norm": 354.49889682764564,
+ "mean_accel_norm": 11.674359346404893
+}

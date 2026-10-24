@@ -1,0 +1,16 @@
+{
+ "hybrid_vidit_w8a8_grid": "1i7X7pAI_pCBItH2TGHhjdOuyX0NHDnU9",
+ "hybrid_w8a8_grid": "1qPG81rJTgV4S4Ml_B1W4_EgPhUP1Yg0P",
+ "sweep_group3_vidit": "1oDZOBK6OWFZjhW184ePbhHa08Fgf_iY6",
+ "sweep_group3_naive": "1TW12O-IFbSn56r_a5gsD4dhPQXnyD77G",
+ "sweep_group2_vidit": "1g908IUz-5dhhDv2sflsjaqw-gXux3ubh",
+ "sweep_group2_naive": "1a_HaeaF2eXT6e9TR_KAarbrlpbE-9l8Y",
+ "sweep_group1_vidit": "1UcH637lCpy9HG2qcfDavlu48T9FOR5KA",
+ "sweep_group1_naive": "1vHoW9i7cbJWT4iCXE4mBja8-y8HXqSPE",
+ "sweep_fp16_baseline": "17VOLcHvWFJQxeKGYjXNBGhu-lm0B9KR9",
+ "w8a8_grid": "1t2vpaxRM4iMxQRrxSZi_C-Kl_HchhzB6",
+ "fp16_grid": "1Stddr3JXrxzESzuh_BS_toQvJXdxJkpW",
+ "calib_data": "1XrRuxQDaYyFWfDsEV28eu-OlZGmwR3MS",
+ "assets": "1raTNNuZn1_HZYh9tHSWEhecTIEym-9s5",
+ "logs": "1MeTuA9giULe57gv_d9TiZHSXlDhPldTr"
+}

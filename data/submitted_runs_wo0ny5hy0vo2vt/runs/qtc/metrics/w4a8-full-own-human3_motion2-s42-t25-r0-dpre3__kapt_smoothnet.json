@@ -1,0 +1,14 @@
+{
+ "uid": "w4a8-full-own-human3_motion2-s42-t25-r0-dpre3",
+ "post": "kapt_smoothnet",
+ "skeleton": "/workspace/runs/qtc/post/6cb0ad40dafc496b5deab09cb466731a1679466707d93bff88e518ae3e7eed3b__kapt_smoothnet.json",
+ "num_frames": 37.0,
+ "acceleration_variance": 3.529730805638155,
+ "mean_acceleration": 0.2297541498020602,
+ "mean_limb_length_std": 13.349432188225217,
+ "total_violations": 4.0,
+ "violation_fraction": 0.10810810810810811,
+ "frames_evaluated": 37.0,
+ "var_accel_norm": 2.598856310480892,
+ "mean_accel_norm": 1.9523704921760485
+}

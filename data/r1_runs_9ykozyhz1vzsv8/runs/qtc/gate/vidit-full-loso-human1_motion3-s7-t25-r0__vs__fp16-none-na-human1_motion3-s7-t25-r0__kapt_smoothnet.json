@@ -1,0 +1,75 @@
+{
+ "cand": "vidit-full-loso-human1_motion3-s7-t25-r0",
+ "ref": "fp16-none-na-human1_motion3-s7-t25-r0",
+ "tag": "vidit_raw_heldout",
+ "post": "kapt_smoothnet",
+ "passed": false,
+ "checks": {
+  "acceleration_variance": false,
+  "mean_limb_length_std": true,
+  "var_accel_norm": false,
+  "violation_fraction": true,
+  "mean_NPE": true,
+  "p95_NPE": true,
+  "under_motion_violations": true,
+  "finite_acceleration_variance": true,
+  "finite_mean_limb_length_std": true,
+  "finite_var_accel_norm": true,
+  "finite_violation_fraction": true
+ },
+ "deltas": {
+  "rel_delta_acceleration_variance": 0.1808271051260953,
+  "rel_delta_mean_limb_length_std": 0.022661813309155607,
+  "rel_delta_var_accel_norm": 0.1616159379965757,
+  "abs_delta_violation_fraction": 0.0,
+  "abs_delta_total_violations": 0.0,
+  "mean_NPE": 0.028608803763601958,
+  "p95_NPE": 0.11279398997291762,
+  "under_motion_violations": 0.0,
+  "signed_delta_violation_fraction": 0.0,
+  "signed_rel_delta_acceleration_variance": 0.1808271051260953,
+  "signed_rel_delta_mean_limb_length_std": 0.022661813309155607,
+  "signed_rel_delta_var_accel_norm": 0.1616159379965757
+ },
+ "metrics_ref": {
+  "uid": "fp16-none-na-human1_motion3-s7-t25-r0",
+  "post": "kapt_smoothnet",
+  "num_frames": 37.0,
+  "acceleration_variance": 24.100570341366296,
+  "mean_acceleration": -0.40897327275747886,
+  "mean_limb_length_std": 61.81398094447131,
+  "total_violations": 20.0,
+  "violation_fraction": 0.5405405405405406,
+  "frames_evaluated": 37.0,
+  "var_accel_norm": 29.995633851989265,
+  "mean_accel_norm": 3.560625937209681
+ },
+ "metrics_cand": {
+  "uid": "vidit-full-loso-human1_motion3-s7-t25-r0",
+  "post": "kapt_smoothnet",
+  "num_frames": 37.0,
+  "acceleration_variance": 28.458606708083394,
+  "mean_acceleration": -0.5090584230858164,
+  "mean_limb_length_std": 63.21479784053062,
+  "total_violations": 20.0,
+  "violation_fraction": 0.5405405405405406,
+  "frames_evaluated": 37.0,
+  "var_accel_norm": 34.84340635278035,
+  "mean_accel_norm": 3.6872983880386627
+ },
+ "movement": {
+  "mean_NPE": 0.028608803763601958,
+  "p95_NPE": 0.11279398997291762,
+  "under_motion_violations": 0.0
+ },
+ "thresholds": {
+  "max_rel_delta_accel_variance": 0.1,
+  "max_rel_delta_limb_std": 0.1,
+  "max_rel_delta_jitter": 0.15,
+  "max_abs_delta_violation_fraction": 0.02,
+  "max_mean_npe": 0.15,
+  "max_p95_npe": 0.3,
+  "max_under_motion_violations": 0.0
+ },
+ "gated_utc": "2026-10-12T21:23:18Z"
+}

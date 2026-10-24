@@ -1,0 +1,14 @@
+{
+ "uid": "w4a8-full-own-human4_motion1-s7-t25-r0-dpre3",
+ "post": "none",
+ "skeleton": "/workspace/runs/keypoints/2d01d18219493303a4ef4e0d111f247bd4b559518c0fcb317da6da2261860d9d.json",
+ "num_frames": 37.0,
+ "acceleration_variance": 289.11447382843,
+ "mean_acceleration": 0.4848194390570811,
+ "mean_limb_length_std": 40.17548632681742,
+ "total_violations": 3.0,
+ "violation_fraction": 0.08108108108108109,
+ "frames_evaluated": 37.0,
+ "var_accel_norm": 592.1012957342907,
+ "mean_accel_norm": 11.64143911793118
+}

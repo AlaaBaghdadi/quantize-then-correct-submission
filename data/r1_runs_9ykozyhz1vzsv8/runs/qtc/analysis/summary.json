@@ -1,0 +1,59 @@
+{
+ "n_abs": 312,
+ "n_gate": 288,
+ "n_recon": 144,
+ "n_meta": 156,
+ "noise_floor": [
+  {
+   "post": "none",
+   "n_pairs": 12,
+   "gate_fail_rate": 0.9166666666666666,
+   "p95_rel_delta_acceleration_variance": 2.957905858347285,
+   "p95_rel_delta_mean_limb_length_std": 0.2648513100073536,
+   "p95_rel_delta_var_accel_norm": 6.918551490375323,
+   "p95_signed_delta_violation_fraction": 0.12027027027027026,
+   "p95_mean_NPE": 0.1711576340381185,
+   "p95_p95_NPE": 0.7594822842583239
+  },
+  {
+   "post": "kapt_smoothnet",
+   "n_pairs": 12,
+   "gate_fail_rate": 0.9166666666666666,
+   "p95_rel_delta_acceleration_variance": 0.7842528280286728,
+   "p95_rel_delta_mean_limb_length_std": 0.4923779452284074,
+   "p95_rel_delta_var_accel_norm": 1.0290324596538,
+   "p95_signed_delta_violation_fraction": 0.27972972972972965,
+   "p95_mean_NPE": 0.11224214918567404,
+   "p95_p95_NPE": 0.35352304207596474
+  }
+ ],
+ "disagreement": {
+  "kendall_tau_lpips_accel": [
+   -0.19999999999999998,
+   0.8166666666666667
+  ],
+  "kendall_tau_lpips_jitter": [
+   0.19999999999999998,
+   0.8166666666666667
+  ],
+  "kendall_tau_lpips_npe": [
+   0.39999999999999997,
+   0.48333333333333334
+  ],
+  "spearman_lpips_rel_delta_acceleration_variance": [
+   0.12347315199866422,
+   0.15838931295147485,
+   132
+  ],
+  "spearman_lpips_rel_delta_var_accel_norm": [
+   0.08945333493344741,
+   0.30772274178826187,
+   132
+  ],
+  "spearman_lpips_mean_NPE": [
+   0.32124725415203514,
+   0.0001727897121965164,
+   132
+  ]
+ }
+}

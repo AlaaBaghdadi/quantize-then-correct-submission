@@ -1,0 +1,65 @@
+quantity,submitted,recomputed,identical,same_decision
+MWU p vidit_raw accel,0.22062804877924724,0.22062804877924724,True,True
+MWU p vidit_raw jitter,0.3221960259545361,0.3221960259545361,True,True
+MWU p vidit_raw limb,0.09669110812009668,0.09669110812009668,True,True
+MWU p vidit_raw npe,0.000514229517818073,0.000514229517818073,True,True
+MWU p vidit_raw npe95,0.0026696078939209434,0.0026696078939209434,True,True
+MWU p w4a8_raw accel,0.7498788409049186,0.7498788409049186,True,True
+MWU p w4a8_raw jitter,0.8273311597939109,0.8273311597939109,True,True
+MWU p w4a8_raw limb,0.41098233114289706,0.41098233114289706,True,True
+MWU p w4a8_raw npe,0.007633939492802421,0.007633939492802421,True,True
+MWU p w4a8_raw npe95,0.01968663407915607,0.01968663407915607,True,True
+LOCO pass vidit_raw_none,21.0,21.0,True,True
+LOCO pass vidit_raw_kapt_smoothnet,21.0,21.0,True,True
+LOCO pass vidit_pre_none,13.0,13.0,True,True
+LOCO pass vidit_pre_kapt_smoothnet,15.0,15.0,True,True
+LOCO pass w4a8_raw_none,20.0,20.0,True,True
+LOCO pass w4a8_raw_kapt_smoothnet,19.0,19.0,True,True
+LOCO pass w4a8_pre_none,13.0,13.0,True,True
+LOCO pass w4a8_pre_kapt_smoothnet,13.0,13.0,True,True
+LOCO self none,9.0,9.0,True,True
+LOCO self kapt_smoothnet,6.0,6.0,True,True
+Spearman rho accel,0.10741996744438416,0.10741996744438416,True,True
+Spearman rho jitter,0.22141888225718934,0.22141888225718934,True,True
+Spearman rho npe,0.3192892023874118,0.3192892023874118,True,True
+Spearman rho npe95,0.21942485078676072,0.21942485078676072,True,True
+Wilcoxon Holm p H1_damage_vidit|acceleration_variance,1.0,1.0,True,True
+Wilcoxon Holm p H1_damage_vidit|mean_limb_length_std,0.962130069732666,0.962130069732666,True,True
+Wilcoxon Holm p H1_damage_vidit|var_accel_norm,1.0,1.0,True,True
+Wilcoxon Holm p H1_damage_vidit|violation_fraction,1.0,1.0,True,True
+Wilcoxon Holm p H2_pre_vidit|acceleration_variance,0.2896671295166015,0.28966712951660156,True,True
+Wilcoxon Holm p H2_pre_vidit|mean_limb_length_std,0.1579223871231079,0.1579223871231079,True,True
+Wilcoxon Holm p H2_pre_vidit|var_accel_norm,0.2867007255554199,0.2867007255554199,True,True
+Wilcoxon Holm p H2_pre_vidit|violation_fraction,0.0161053101801154,0.01625348824426156,False,True
+Wilcoxon Holm p H3_post_vidit|acceleration_variance,4.76837158203125e-07,4.76837158203125e-07,True,True
+Wilcoxon Holm p H3_post_vidit|mean_limb_length_std,0.0012379884719848,0.0012379884719848633,True,True
+Wilcoxon Holm p H3_post_vidit|var_accel_norm,4.76837158203125e-07,4.76837158203125e-07,True,True
+Wilcoxon Holm p H3_post_vidit|violation_fraction,0.0002068104004433,0.00022153754437346238,False,True
+Wilcoxon Holm p H4_combined_vidit|acceleration_variance,4.76837158203125e-07,4.76837158203125e-07,True,True
+Wilcoxon Holm p H4_combined_vidit|mean_limb_length_std,0.0022457838058471,0.002245783805847168,True,True
+Wilcoxon Holm p H4_combined_vidit|var_accel_norm,4.76837158203125e-07,4.76837158203125e-07,True,True
+Wilcoxon Holm p H4_combined_vidit|violation_fraction,0.0019081986014777,0.0020317927470771676,False,True
+Wilcoxon Holm p H1post_vidit|acceleration_variance,0.7237031909105507,1.0,False,True
+Wilcoxon Holm p H1post_vidit|mean_limb_length_std,0.3356800079345703,0.3356800079345703,True,True
+Wilcoxon Holm p H1post_vidit|var_accel_norm,0.7237031909105507,1.0,False,True
+Wilcoxon Holm p H1post_vidit|violation_fraction,0.7237031909105507,1.0,False,True
+Wilcoxon Holm p H1_damage_w4a8|acceleration_variance,1.0,1.0,True,True
+Wilcoxon Holm p H1_damage_w4a8|mean_limb_length_std,1.0,1.0,True,True
+Wilcoxon Holm p H1_damage_w4a8|var_accel_norm,1.0,1.0,True,True
+Wilcoxon Holm p H1_damage_w4a8|violation_fraction,1.0,1.0,True,True
+Wilcoxon Holm p H2_pre_w4a8|acceleration_variance,0.0112586021423339,0.011258602142333984,True,True
+Wilcoxon Holm p H2_pre_w4a8|mean_limb_length_std,0.0839200019836425,0.08392000198364258,True,True
+Wilcoxon Holm p H2_pre_w4a8|var_accel_norm,0.0290585586389738,0.03173357428882242,False,True
+Wilcoxon Holm p H2_pre_w4a8|violation_fraction,0.0290585586389738,0.03173357428882242,False,True
+Wilcoxon Holm p H3_post_w4a8|acceleration_variance,4.76837158203125e-07,4.76837158203125e-07,True,True
+Wilcoxon Holm p H3_post_w4a8|mean_limb_length_std,0.0002051591873168,0.00020515918731689453,True,True
+Wilcoxon Holm p H3_post_w4a8|var_accel_norm,4.76837158203125e-07,4.76837158203125e-07,True,True
+Wilcoxon Holm p H3_post_w4a8|violation_fraction,0.0001810544870829,0.00019385400889464593,False,True
+Wilcoxon Holm p H4_combined_w4a8|acceleration_variance,4.76837158203125e-07,4.76837158203125e-07,True,True
+Wilcoxon Holm p H4_combined_w4a8|mean_limb_length_std,0.0009243526881687,0.0008462667465209961,False,True
+Wilcoxon Holm p H4_combined_w4a8|var_accel_norm,4.76837158203125e-07,4.76837158203125e-07,True,True
+Wilcoxon Holm p H4_combined_w4a8|violation_fraction,0.0009243526881687,0.0008292836739314903,False,True
+Wilcoxon Holm p H1post_w4a8|acceleration_variance,0.24170827865600586,0.24170827865600586,True,True
+Wilcoxon Holm p H1post_w4a8|mean_limb_length_std,0.36252057552337646,0.36252057552337646,True,True
+Wilcoxon Holm p H1post_w4a8|var_accel_norm,0.3750026226043701,0.3750026226043701,True,True
+Wilcoxon Holm p H1post_w4a8|violation_fraction,0.3750026226043701,0.3750026226043701,True,True

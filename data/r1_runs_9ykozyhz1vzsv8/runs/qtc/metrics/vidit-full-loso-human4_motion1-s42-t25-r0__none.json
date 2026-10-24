@@ -1,0 +1,14 @@
+{
+ "uid": "vidit-full-loso-human4_motion1-s42-t25-r0",
+ "post": "none",
+ "skeleton": "/workspace/runs/keypoints/387e2e70eb7bac563cb9871fa78f11c6741270927c69bdbbb6b0db9ed3c9fa0e.json",
+ "num_frames": 37.0,
+ "acceleration_variance": 56.51883542319673,
+ "mean_acceleration": 0.6576195937687929,
+ "mean_limb_length_std": 13.015494740210725,
+ "total_violations": 0.0,
+ "violation_fraction": 0.0,
+ "frames_evaluated": 37.0,
+ "var_accel_norm": 131.5794740533008,
+ "mean_accel_norm": 5.694390743915368
+}

@@ -1,0 +1,93 @@
+{
+  "description": "DynamiCtrl ViDiT-Q W8A8 Colab run settings. Lower early_sensitivity_ratio keeps more layers in FP16.",
+  "paths": {
+    "drive_root": "/content/drive/MyDrive/diffusion_quantization",
+    "repo": "/content/DynamiCtrl",
+    "model_path": "./checkpoints/DynamiCtrl",
+    "calib_file": "calib_data/human2_motion1_vidit.pt",
+    "quantize_layers": "./configs/quant/quantize_layers.txt",
+    "fp16_reference_dir": "/content/drive/MyDrive/diffusion_quantization/outputs/fp16",
+    "vidit_output_dir": "./outputs/vidit_w8a8",
+    "benchmark_log_json": "/content/drive/MyDrive/diffusion_quantization/logs/vidit_benchmark.json"
+  },
+  "setup": {
+    "resume_downloads": true
+  },
+  "clip": {
+    "reference_image": "./assets/human2.jpg",
+    "driving_video": "./assets/motion1.mp4"
+  },
+  "inference": {
+    "prompt": "Input the test prompt here.",
+    "num_inference_steps": 25,
+    "width": 768,
+    "height": 1360,
+    "num_frames": 37,
+    "pose_control_function": "padaln",
+    "guidance_scale": 3.0,
+    "seed": 42,
+    "fps": 16,
+    "dtype": "bfloat16"
+  },
+  "vidit_quantization": {
+    "smoothquant_alpha": 0.5,
+    "early_sensitivity_ratio": 1.25,
+    "max_early_fp16_layers": 24,
+    "use_compile": true
+  },
+  "benchmark": {
+    "warmup_repeats": 10
+  },
+  "quality_gate": {
+    "min_psnr_db": 25.0,
+    "target_psnr_db": 30.0
+  },
+  "grid": {
+    "images": [
+      "./assets/human1.jpg",
+      "./assets/human2.jpg",
+      "./assets/human3.jpg",
+      "./assets/human4.jpg"
+    ],
+    "motions": [
+      "./assets/motion1.mp4",
+      "./assets/motion2.mp4",
+      "./assets/motion3.mp4"
+    ],
+    "fp16_output_dir": "./outputs/fp16_grid",
+    "vidit_output_dir": "./outputs/vidit_w8a8_grid",
+    "w8a8_output_dir": "./outputs/w8a8_grid",
+    "calib_dir": "./calib_data"
+  },
+  "hybrid_map": {
+    "block_fp16": [1, 13],
+    "block_int8": [14, 40],
+    "sweep_image": "./assets/human2.jpg",
+    "sweep_motions": [
+      "./assets/motion1.mp4",
+      "./assets/motion2.mp4",
+      "./assets/motion3.mp4"
+    ],
+    "naive_output_dir": "./outputs/hybrid_w8a8_grid",
+    "vidit_output_dir": "./outputs/hybrid_vidit_w8a8_grid",
+    "calib_dir": "./calib_data",
+    "naive_quant_prefix": "hybrid_w8a8",
+    "vidit_quant_prefix": "hybrid_vidit_w8a8",
+    "gate_report_dir": "./logs/kinematic_gate_hybrid_grid",
+    "gate_summary_json": "./logs/kinematic_gate_hybrid_grid.json"
+  },
+  "kinematic_gate": {
+    "phase1_root": "../phase1",
+    "openpose_root": null,
+    "cache_dir": "./kinematic_cache",
+    "report_json": "./logs/kinematic_gate.json",
+    "max_rel_delta_accel_variance": 0.10,
+    "max_rel_delta_limb_std": 0.10,
+    "max_rel_delta_jitter": 0.15,
+    "max_abs_delta_violation_fraction": 0.02,
+    "max_mean_npe": 0.15,
+    "max_p95_npe": 0.30,
+    "max_under_motion_violations": 0.0,
+    "skip_if_cached": true
+  }
+}

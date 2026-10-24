@@ -1,0 +1,18 @@
+# Main pipeline environment (diffusion/ venv)
+# Python version: 3.9 (required — TensorFlow 1.15 parser needs 3.7 in a separate venv)
+# Create: py -3.9 -m venv diffusion && diffusion\Scripts\pip install -r requirements.txt#
+# For GPU PyTorch, install torch/torchvision from https://pytorch.org first, then:
+#   pip install -r requirements.txt --no-deps  (or omit torch/torchvision lines)
+
+numpy>=1.23,<2
+opencv-python>=4.8
+opencv-contrib-python>=4.8
+mediapipe>=0.10.9
+matplotlib>=3.8
+scipy>=1.11
+tqdm>=4.66
+pandas>=2.1
+Pillow>=10.0
+clean-fid>=0.1.35
+torch>=2.0
+torchvision>=0.15

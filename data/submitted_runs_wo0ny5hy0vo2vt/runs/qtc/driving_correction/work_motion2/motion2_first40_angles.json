@@ -1,0 +1,527 @@
+{
+  "format": "kalman/angles_v1",
+  "video_stem": "motion2_first40",
+  "fps": 30.0,
+  "frames": [
+    {
+      "frame_index": 0,
+      "angles": {
+        "left_shoulder_pitch": 41.2,
+        "left_shoulder_yaw": 80.83,
+        "left_shoulder_roll": -16.3,
+        "right_shoulder_pitch": 25.76,
+        "right_shoulder_yaw": -24.84,
+        "right_shoulder_roll": 8.56,
+        "left_elbow_angle": 165.02,
+        "right_elbow_angle": 153.71
+      }
+    },
+    {
+      "frame_index": 1,
+      "angles": {
+        "left_shoulder_pitch": 42.69,
+        "left_shoulder_yaw": 82.39,
+        "left_shoulder_roll": -17.47,
+        "right_shoulder_pitch": 26.8,
+        "right_shoulder_yaw": -23.02,
+        "right_shoulder_roll": 13.07,
+        "left_elbow_angle": 165.5,
+        "right_elbow_angle": 153.38
+      }
+    },
+    {
+      "frame_index": 2,
+      "angles": {
+        "left_shoulder_pitch": 42.78,
+        "left_shoulder_yaw": 83.38,
+        "left_shoulder_roll": -6.25,
+        "right_shoulder_pitch": 22.71,
+        "right_shoulder_yaw": -34.3,
+        "right_shoulder_roll": 3.69,
+        "left_elbow_angle": 165.46,
+        "right_elbow_angle": 152.16
+      }
+    },
+    {
+      "frame_index": 3,
+      "angles": {
+        "left_shoulder_pitch": 44.43,
+        "left_shoulder_yaw": 82.74,
+        "left_shoulder_roll": -6.62,
+        "right_shoulder_pitch": 23.86,
+        "right_shoulder_yaw": -30.07,
+        "right_shoulder_roll": 14.81,
+        "left_elbow_angle": 167.68,
+        "right_elbow_angle": 149.06
+      }
+    },
+    {
+      "frame_index": 4,
+      "angles": {
+        "left_shoulder_pitch": 44.75,
+        "left_shoulder_yaw": 83.67,
+        "left_shoulder_roll": -7.06,
+        "right_shoulder_pitch": 20.05,
+        "right_shoulder_yaw": -35.22,
+        "right_shoulder_roll": 15.54,
+        "left_elbow_angle": 169.17,
+        "right_elbow_angle": 148.61
+      }
+    },
+    {
+      "frame_index": 5,
+      "angles": {
+        "left_shoulder_pitch": 42.92,
+        "left_shoulder_yaw": 82.46,
+        "left_shoulder_roll": -10.75,
+        "right_shoulder_pitch": 22.85,
+        "right_shoulder_yaw": -31.52,
+        "right_shoulder_roll": 24.81,
+        "left_elbow_angle": 168.75,
+        "right_elbow_angle": 146.65
+      }
+    },
+    {
+      "frame_index": 6,
+      "angles": {
+        "left_shoulder_pitch": 41.79,
+        "left_shoulder_yaw": 83.84,
+        "left_shoulder_roll": -11.59,
+        "right_shoulder_pitch": 20.49,
+        "right_shoulder_yaw": -33.72,
+        "right_shoulder_roll": 25.02,
+        "left_elbow_angle": 168.92,
+        "right_elbow_angle": 144.62
+      }
+    },
+    {
+      "frame_index": 7,
+      "angles": {
+        "left_shoulder_pitch": 40.1,
+        "left_shoulder_yaw": 82.15,
+        "left_shoulder_roll": -11.35,
+        "right_shoulder_pitch": 22.26,
+        "right_shoulder_yaw": -30.61,
+        "right_shoulder_roll": 32.21,
+        "left_elbow_angle": 169.5,
+        "right_elbow_angle": 142.16
+      }
+    },
+    {
+      "frame_index": 8,
+      "angles": {
+        "left_shoulder_pitch": 38.77,
+        "left_shoulder_yaw": 85.77,
+        "left_shoulder_roll": -8.51,
+        "right_shoulder_pitch": 20.18,
+        "right_shoulder_yaw": -33.85,
+        "right_shoulder_roll": 30.02,
+        "left_elbow_angle": 170.05,
+        "right_elbow_angle": 141.49
+      }
+    },
+    {
+      "frame_index": 9,
+      "angles": {
+        "left_shoulder_pitch": 38.01,
+        "left_shoulder_yaw": 85.96,
+        "left_shoulder_roll": -8.02,
+        "right_shoulder_pitch": 20.76,
+        "right_shoulder_yaw": -31.24,
+        "right_shoulder_roll": 33.32,
+        "left_elbow_angle": 170.03,
+        "right_elbow_angle": 140.54
+      }
+    },
+    {
+      "frame_index": 10,
+      "angles": {
+        "left_shoulder_pitch": 39.7,
+        "left_shoulder_yaw": 81.51,
+        "left_shoulder_roll": -7.73,
+        "right_shoulder_pitch": 21.92,
+        "right_shoulder_yaw": -27.8,
+        "right_shoulder_roll": 39.32,
+        "left_elbow_angle": 170.71,
+        "right_elbow_angle": 138.68
+      }
+    },
+    {
+      "frame_index": 11,
+      "angles": {
+        "left_shoulder_pitch": 40.89,
+        "left_shoulder_yaw": 80.67,
+        "left_shoulder_roll": -12.66,
+        "right_shoulder_pitch": 23.12,
+        "right_shoulder_yaw": -20.21,
+        "right_shoulder_roll": 48.57,
+        "left_elbow_angle": 170.9,
+        "right_elbow_angle": 133.12
+      }
+    },
+    {
+      "frame_index": 12,
+      "angles": {
+        "left_shoulder_pitch": 41.45,
+        "left_shoulder_yaw": 83.12,
+        "left_shoulder_roll": -1.92,
+        "right_shoulder_pitch": 19.26,
+        "right_shoulder_yaw": -13.2,
+        "right_shoulder_roll": 57.34,
+        "left_elbow_angle": 165.19,
+        "right_elbow_angle": 124.2
+      }
+    },
+    {
+      "frame_index": 13,
+      "angles": {
+        "left_shoulder_pitch": 40.3,
+        "left_shoulder_yaw": 80.41,
+        "left_shoulder_roll": 7.84,
+        "right_shoulder_pitch": 13.41,
+        "right_shoulder_yaw": -0.31,
+        "right_shoulder_roll": 54.79,
+        "left_elbow_angle": 154.21,
+        "right_elbow_angle": 117.72
+      }
+    },
+    {
+      "frame_index": 14,
+      "angles": {
+        "left_shoulder_pitch": 33.47,
+        "left_shoulder_yaw": 79.52,
+        "left_shoulder_roll": 13.64,
+        "right_shoulder_pitch": 12.8,
+        "right_shoulder_yaw": 1.32,
+        "right_shoulder_roll": 44.18,
+        "left_elbow_angle": 136.85,
+        "right_elbow_angle": 110.92
+      }
+    },
+    {
+      "frame_index": 15,
+      "angles": {
+        "left_shoulder_pitch": 27.93,
+        "left_shoulder_yaw": 68.23,
+        "left_shoulder_roll": 6.75,
+        "right_shoulder_pitch": 17.75,
+        "right_shoulder_yaw": -12.15,
+        "right_shoulder_roll": 24.62,
+        "left_elbow_angle": 117.56,
+        "right_elbow_angle": 104.82
+      }
+    },
+    {
+      "frame_index": 16,
+      "angles": {
+        "left_shoulder_pitch": 24.14,
+        "left_shoulder_yaw": 66.46,
+        "left_shoulder_roll": 9.9,
+        "right_shoulder_pitch": 22.4,
+        "right_shoulder_yaw": -28.87,
+        "right_shoulder_roll": -1.69,
+        "left_elbow_angle": 101.72,
+        "right_elbow_angle": 101.29
+      }
+    },
+    {
+      "frame_index": 17,
+      "angles": {
+        "left_shoulder_pitch": 28.27,
+        "left_shoulder_yaw": 44.87,
+        "left_shoulder_roll": -2.52,
+        "right_shoulder_pitch": 39.14,
+        "right_shoulder_yaw": -28.4,
+        "right_shoulder_roll": -8.77,
+        "left_elbow_angle": 86.86,
+        "right_elbow_angle": 98.35
+      }
+    },
+    {
+      "frame_index": 18,
+      "angles": {
+        "left_shoulder_pitch": 32.79,
+        "left_shoulder_yaw": 36.3,
+        "left_shoulder_roll": -8.82,
+        "right_shoulder_pitch": 50.15,
+        "right_shoulder_yaw": -32.48,
+        "right_shoulder_roll": -19.8,
+        "left_elbow_angle": 77.06,
+        "right_elbow_angle": 91.9
+      }
+    },
+    {
+      "frame_index": 19,
+      "angles": {
+        "left_shoulder_pitch": 26.32,
+        "left_shoulder_yaw": 42.18,
+        "left_shoulder_roll": 0.49,
+        "right_shoulder_pitch": 48.3,
+        "right_shoulder_yaw": -42.09,
+        "right_shoulder_roll": -34.82,
+        "left_elbow_angle": 71.56,
+        "right_elbow_angle": 85.69
+      }
+    },
+    {
+      "frame_index": 20,
+      "angles": {
+        "left_shoulder_pitch": 27.25,
+        "left_shoulder_yaw": 37.43,
+        "left_shoulder_roll": -2.58,
+        "right_shoulder_pitch": 52.53,
+        "right_shoulder_yaw": -44.06,
+        "right_shoulder_roll": -38.89,
+        "left_elbow_angle": 67.3,
+        "right_elbow_angle": 82.14
+      }
+    },
+    {
+      "frame_index": 21,
+      "angles": {
+        "left_shoulder_pitch": 24.81,
+        "left_shoulder_yaw": 35.05,
+        "left_shoulder_roll": -3.81,
+        "right_shoulder_pitch": 53.56,
+        "right_shoulder_yaw": -46.5,
+        "right_shoulder_roll": -46.24,
+        "left_elbow_angle": 66.2,
+        "right_elbow_angle": 80.61
+      }
+    },
+    {
+      "frame_index": 22,
+      "angles": {
+        "left_shoulder_pitch": 24.33,
+        "left_shoulder_yaw": 32.94,
+        "left_shoulder_roll": -7.87,
+        "right_shoulder_pitch": 55.76,
+        "right_shoulder_yaw": -46.82,
+        "right_shoulder_roll": -48.51,
+        "left_elbow_angle": 64.95,
+        "right_elbow_angle": 80.51
+      }
+    },
+    {
+      "frame_index": 23,
+      "angles": {
+        "left_shoulder_pitch": 25.85,
+        "left_shoulder_yaw": 32.42,
+        "left_shoulder_roll": -6.98,
+        "right_shoulder_pitch": 55.25,
+        "right_shoulder_yaw": -44.82,
+        "right_shoulder_roll": -46.49,
+        "left_elbow_angle": 66.38,
+        "right_elbow_angle": 81.17
+      }
+    },
+    {
+      "frame_index": 24,
+      "angles": {
+        "left_shoulder_pitch": 28.15,
+        "left_shoulder_yaw": 33.64,
+        "left_shoulder_roll": -5.59,
+        "right_shoulder_pitch": 53.55,
+        "right_shoulder_yaw": -43.1,
+        "right_shoulder_roll": -41.89,
+        "left_elbow_angle": 66.51,
+        "right_elbow_angle": 81.2
+      }
+    },
+    {
+      "frame_index": 25,
+      "angles": {
+        "left_shoulder_pitch": 26.93,
+        "left_shoulder_yaw": 39.34,
+        "left_shoulder_roll": 2.74,
+        "right_shoulder_pitch": 47.49,
+        "right_shoulder_yaw": -40.18,
+        "right_shoulder_roll": -40.4,
+        "left_elbow_angle": 69.52,
+        "right_elbow_angle": 84.08
+      }
+    },
+    {
+      "frame_index": 26,
+      "angles": {
+        "left_shoulder_pitch": 30.69,
+        "left_shoulder_yaw": 39.17,
+        "left_shoulder_roll": 5.24,
+        "right_shoulder_pitch": 45.42,
+        "right_shoulder_yaw": -34.76,
+        "right_shoulder_roll": -33.65,
+        "left_elbow_angle": 73.18,
+        "right_elbow_angle": 86.27
+      }
+    },
+    {
+      "frame_index": 27,
+      "angles": {
+        "left_shoulder_pitch": 31.65,
+        "left_shoulder_yaw": 44.15,
+        "left_shoulder_roll": 13.1,
+        "right_shoulder_pitch": 41.19,
+        "right_shoulder_yaw": -30.11,
+        "right_shoulder_roll": -27.82,
+        "left_elbow_angle": 75.12,
+        "right_elbow_angle": 89.79
+      }
+    },
+    {
+      "frame_index": 28,
+      "angles": {
+        "left_shoulder_pitch": 37.13,
+        "left_shoulder_yaw": 43.64,
+        "left_shoulder_roll": 13.49,
+        "right_shoulder_pitch": 41.56,
+        "right_shoulder_yaw": -23.99,
+        "right_shoulder_roll": -18.83,
+        "left_elbow_angle": 77.15,
+        "right_elbow_angle": 92.17
+      }
+    },
+    {
+      "frame_index": 29,
+      "angles": {
+        "left_shoulder_pitch": 40.41,
+        "left_shoulder_yaw": 48.71,
+        "left_shoulder_roll": 20.74,
+        "right_shoulder_pitch": 37.8,
+        "right_shoulder_yaw": -19.34,
+        "right_shoulder_roll": -13.58,
+        "left_elbow_angle": 79.03,
+        "right_elbow_angle": 90.58
+      }
+    },
+    {
+      "frame_index": 30,
+      "angles": {
+        "left_shoulder_pitch": 45.49,
+        "left_shoulder_yaw": 55.82,
+        "left_shoulder_roll": 28.46,
+        "right_shoulder_pitch": 34.12,
+        "right_shoulder_yaw": -12.56,
+        "right_shoulder_roll": -5.38,
+        "left_elbow_angle": 80.06,
+        "right_elbow_angle": 90.83
+      }
+    },
+    {
+      "frame_index": 31,
+      "angles": {
+        "left_shoulder_pitch": 50.95,
+        "left_shoulder_yaw": 62.06,
+        "left_shoulder_roll": 35.62,
+        "right_shoulder_pitch": 32.25,
+        "right_shoulder_yaw": -8.99,
+        "right_shoulder_roll": 1.82,
+        "left_elbow_angle": 78.26,
+        "right_elbow_angle": 88.4
+      }
+    },
+    {
+      "frame_index": 32,
+      "angles": {
+        "left_shoulder_pitch": 53.42,
+        "left_shoulder_yaw": 72.7,
+        "left_shoulder_roll": 46.63,
+        "right_shoulder_pitch": 24.2,
+        "right_shoulder_yaw": -10.53,
+        "right_shoulder_roll": 4.07,
+        "left_elbow_angle": 75.1,
+        "right_elbow_angle": 84.45
+      }
+    },
+    {
+      "frame_index": 33,
+      "angles": {
+        "left_shoulder_pitch": 58.59,
+        "left_shoulder_yaw": 75.7,
+        "left_shoulder_roll": 48.11,
+        "right_shoulder_pitch": 24.5,
+        "right_shoulder_yaw": -8.09,
+        "right_shoulder_roll": 7.78,
+        "left_elbow_angle": 73.01,
+        "right_elbow_angle": 84.21
+      }
+    },
+    {
+      "frame_index": 34,
+      "angles": {
+        "left_shoulder_pitch": 63.17,
+        "left_shoulder_yaw": 76.76,
+        "left_shoulder_roll": 48.13,
+        "right_shoulder_pitch": 25.37,
+        "right_shoulder_yaw": -6.58,
+        "right_shoulder_roll": 11.8,
+        "left_elbow_angle": 72.44,
+        "right_elbow_angle": 83.53
+      }
+    },
+    {
+      "frame_index": 35,
+      "angles": {
+        "left_shoulder_pitch": 64.13,
+        "left_shoulder_yaw": 79.42,
+        "left_shoulder_roll": 50.48,
+        "right_shoulder_pitch": 23.21,
+        "right_shoulder_yaw": -7.21,
+        "right_shoulder_roll": 11.82,
+        "left_elbow_angle": 69.87,
+        "right_elbow_angle": 83.3
+      }
+    },
+    {
+      "frame_index": 36,
+      "angles": {
+        "left_shoulder_pitch": 66.53,
+        "left_shoulder_yaw": 75.01,
+        "left_shoulder_roll": 46.24,
+        "right_shoulder_pitch": 27.08,
+        "right_shoulder_yaw": -4.73,
+        "right_shoulder_roll": 16.58,
+        "left_elbow_angle": 72.32,
+        "right_elbow_angle": 82.7
+      }
+    },
+    {
+      "frame_index": 37,
+      "angles": {
+        "left_shoulder_pitch": 65.39,
+        "left_shoulder_yaw": 78.27,
+        "left_shoulder_roll": 46.09,
+        "right_shoulder_pitch": 24.25,
+        "right_shoulder_yaw": -5.43,
+        "right_shoulder_roll": 15.93,
+        "left_elbow_angle": 70.89,
+        "right_elbow_angle": 81.55
+      }
+    },
+    {
+      "frame_index": 38,
+      "angles": {
+        "left_shoulder_pitch": 64.8,
+        "left_shoulder_yaw": 78.94,
+        "left_shoulder_roll": 46.31,
+        "right_shoulder_pitch": 23.5,
+        "right_shoulder_yaw": -7.66,
+        "right_shoulder_roll": 13.14,
+        "left_elbow_angle": 70.8,
+        "right_elbow_angle": 80.76
+      }
+    },
+    {
+      "frame_index": 39,
+      "angles": {
+        "left_shoulder_pitch": 62.78,
+        "left_shoulder_yaw": 77.69,
+        "left_shoulder_roll": 45.91,
+        "right_shoulder_pitch": 24.84,
+        "right_shoulder_yaw": -11.84,
+        "right_shoulder_roll": 7.91,
+        "left_elbow_angle": 70.69,
+        "right_elbow_angle": 82.22
+      }
+    }
+  ]
+}

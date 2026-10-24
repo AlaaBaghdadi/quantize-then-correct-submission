@@ -1,0 +1,14 @@
+{
+ "uid": "w4a8-full-loso-human4_motion1-s42-t25-r0",
+ "post": "none",
+ "skeleton": "/workspace/runs/keypoints/dc3221e1b8a25159a4733462beb27625bf10a4ddbfc6936727d8a01b4812113e.json",
+ "num_frames": 37.0,
+ "acceleration_variance": 132.65054151201247,
+ "mean_acceleration": 0.16778782184078783,
+ "mean_limb_length_std": 16.343545056810566,
+ "total_violations": 0.0,
+ "violation_fraction": 0.0,
+ "frames_evaluated": 37.0,
+ "var_accel_norm": 221.93629335434895,
+ "mean_accel_norm": 6.380933154662223
+}

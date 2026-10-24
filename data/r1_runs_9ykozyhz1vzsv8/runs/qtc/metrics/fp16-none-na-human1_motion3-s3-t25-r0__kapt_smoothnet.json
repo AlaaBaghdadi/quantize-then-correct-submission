@@ -1,0 +1,14 @@
+{
+ "uid": "fp16-none-na-human1_motion3-s3-t25-r0",
+ "post": "kapt_smoothnet",
+ "skeleton": "/workspace/runs/qtc/post/e17a061333a5042c47ed45e934b0c946704250dfc481e7176227b93b244cdefe__kapt_smoothnet.json",
+ "num_frames": 37.0,
+ "acceleration_variance": 12.156508332179206,
+ "mean_acceleration": -0.17753775306064168,
+ "mean_limb_length_std": 138.13730458115754,
+ "total_violations": 21.0,
+ "violation_fraction": 0.5675675675675675,
+ "frames_evaluated": 37.0,
+ "var_accel_norm": 9.084691009450394,
+ "mean_accel_norm": 2.942944045898701
+}
